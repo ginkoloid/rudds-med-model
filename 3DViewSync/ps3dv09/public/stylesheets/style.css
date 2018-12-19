@@ -1,0 +1,226 @@
+/* 基本設定 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+/*
+	color: #222;
+	font-family: tahoma, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    background-color: #fff;
+    background-position: 0 bottom;
+    margin: 0px;
+    overflow: hidden;
+    */
+}
+
+h1 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: white;
+}
+
+/* infoの設定 */
+#info {
+    background-color: rgba( 255, 255, 255, .3 );
+    color: #333;
+    text-shadow: 0 -1px 0 rgba( 255, 255, 255, .6 );
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    padding: 20px;
+    z-index: 100;
+}
+
+#info p {
+    margin-bottom: 10px;
+}
+
+#info p: last-child {
+    margin-bottom: 0;
+}
+
+/* containerの設定 */
+#box-container {
+ 	margin: 5px 5px;
+ 	background-image: url( images/white.jpg );
+}
+
+#box-container-webVR{
+
+}
+
+#comments-font {
+	position:fixed;
+	margin: 10px 10px;
+	font-size: 200%;
+	color: #fff;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             		black 1px -1px 0px, black -1px -1px 0px;
+}
+
+#comments-font-r {
+	position:fixed;
+	margin: 10px 10px;
+	font-size: 200%;
+	color: #fff;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             		black 1px -1px 0px, black -1px -1px 0px;
+}
+
+header {
+	margin: 20px;
+	margin-top:60px;
+}
+
+#contents {
+	width: 980px;
+	height: 515px;
+	margin: 20px;
+ 	overflow: hidden;
+ 	background:#333;
+}
+#left-column {
+  float: left;
+}
+#right-column {
+  float: left;
+}
+
+
+/* window-of-commentsの設定 */
+#window-of-comments {
+	width:350px;
+	height:500px;
+	padding:10px 10px;
+	margin: 10px 10px;
+	background-color: #fff;
+	border: 3px double #ddd;
+	box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#display-comments-list {
+	overflow: scroll;
+	width:324px;
+	height:450px;
+}
+
+/*
+#window-of-comments {
+	overflow: scroll;
+	position:fixed;
+	top:35px;
+	right:0px;
+	width:300px;
+	height:200px;
+	padding:10px 10px;
+	margin: 10px 10px;
+	background-color: #fff;
+	border-radius:3px;
+	border: 3px double #ddd;
+	box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	z-index:10000;
+}
+
+#window-of-comments table {
+	width: 100%;
+	font-size: 10px;
+}
+
+#window-of-comments tr {
+	background: #fff
+}
+
+#window-of-comments th {
+	background: #ddd;
+	padding: 2px 2px;
+}
+
+#window-of-comments td {
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-size: 10px;
+	padding: 2px 2px;
+	width:80px;
+    max-width:80px;
+}
+
+#window-of-comments .comments-contents {
+	width: 150px;
+}
+*/
+/* input-comments-formの設定 */
+
+#input-comments-form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+/*
+#btn-submit-comments {
+	width:10%;
+	font-weight:bold;
+	font-size:140%;
+	border:1px solid #777;
+	padding: 4px 10px;
+	color: #fff;
+	background: #428ec9;
+	border-radius: 5px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#99c9e5),to(#428ec9));
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 1px #fff;
+	background: -moz-linear-gradient(top,#99c9e5,#428ec9);
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #fff;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff99c9e5,endColorstr=#ff428ec9);
+	zoom: 1;
+}
+
+#btn-submit-comments:hover {
+	background: #19448e;
+}
+*/
+
+#comments {
+	padding:5px;
+}
+
+
+#input-comments-form input{
+	height: 100%;
+}
+
+/* utility*/
+.small {
+	font-size: 70%;
+}
+
+/* @mediaの設定 */
+@media (max-width: 480px) {
+    #info {
+    	display: none;
+    }
+
+    #window-of-comments {
+    	display: none;
+    }
+}
+
+input[type="image"]{
+	padding: 2px;
+	outline: none;
+}
+
+input[type="image"].active{
+	background-color: #00FFFF;
+}

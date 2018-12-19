@@ -1,0 +1,5 @@
+# Not to include the garbage
+.DS_Store
+*.swp
+*.rdb
+node_modules/

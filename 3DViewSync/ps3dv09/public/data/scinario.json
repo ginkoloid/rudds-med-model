@@ -1,0 +1,68 @@
+{
+  "preset": "bbbb",
+  "remembered": {
+    "Default": {
+      "0": {
+        "Camera_x": 0,
+        "Camera_y": 0,
+        "Camera_z": 8,
+        "Scenario": "",
+        "radius": 5,
+        "color": "#c2dc94"
+      }
+    },
+    "aaaa": {
+      "0": {
+        "Camera_x": 27.24452869205583,
+        "Camera_y": 11.252800275719457,
+        "Camera_z": 13.458555919352058,
+        "Scenario": "人体のどこを見るでしょう？",
+        "radius": 5,
+        "color": "#c2dc94"
+      }
+    },
+    "bbbb": {
+      "0": {
+        "Camera_x": 27.24452869205583,
+        "Camera_y": 11.252800275719457,
+        "Camera_z": 13.458555919352058,
+        "Scenario": "人体のどこを見るでしょうか？",
+        "radius": 5,
+        "color": "#c2dc94"
+      }
+    },
+    "cccc": {
+      "0": {
+        "Camera_x": 12.907117008443908,
+        "Camera_y": 11.252800275719457,
+        "Camera_z": 13.458555919352058,
+        "Scenario": "目線はどこでしょう？",
+        "radius": 5,
+        "color": "#c2dc94"
+      }
+    },
+    "bbb": {
+      "0": {
+        "Camera_x": 27.24452869205583,
+        "Camera_y": 11.252800275719457,
+        "Camera_z": 13.458555919352058,
+        "Scenario": "人体のどこを見るでしょう？",
+        "radius": 5,
+        "color": "#c2dc94"
+      }
+    }
+  },
+  "closed": false,
+  "folders": {
+    "Scenario": {
+      "preset": "Default",
+      "closed": false,
+      "folders": {}
+    },
+    "Annotation-property": {
+      "preset": "Default",
+      "closed": false,
+      "folders": {}
+    }
+  }
+}
